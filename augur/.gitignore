@@ -1,0 +1,82 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.egg-info
+.vscode
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+.vagrant
+
+# Logs and databases #
+######################
+*.log
+*.pid
+*.sql
+*.sqlite
+*.cfg
+*.cfg.old
+*.cfg.sh
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.cache
+*.pyc
+*.swp
+*.un~
+
+# Git #
+#######
+*.orig
+
+# Git #
+#######
+*.orig
+*.un~
+
+# Python junk #
+###############
+__pycache__
+_pycache_
+augur/bin
+.pytest_cache
+.ipynb_checkpoints
+
+# Node #
+########
+*node_modules/
+yarn.lock
+
+# Augur #
+#########
+runtime/
+augur/plugins/
+*.repolist.txt
+*.config.*
+*.cfg.*
+!sample.config.json
+!vagrant.config.json
+frontend/public/*.map
